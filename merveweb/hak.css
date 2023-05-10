@@ -9,6 +9,35 @@ body{
   color:brown;
    
 }
+#seh:hover{
+    background-color: brown;
+    color:black;
+}
+#miras:hover{
+    background-color: brown;
+    color:black;
+}
+#ilgi:hover{
+    background-color: brown;
+    color:black;
+}
+#iletisim:hover{
+    background-color: brown;
+    color:black;
+}
+#seh{
+    color:black;
+}
+#miras{
+    color: black;
+}
+#ilgi{
+    color:black,
+}
+#iletisim{
+    color: black;
+}
+
 #menu{
 
     float:left;
