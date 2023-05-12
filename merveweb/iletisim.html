@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="/merveweb/iletisim.css">
+  <script defer src="/merveweb/js.js"></script>
+</head>
+
+<body>
+
+
+  <form method="POST" action="">
+    <input type="password" name="pin">
+    <input type="submit" name="gonder" value="Giriş">
+</form>
+
+<?php
+if(isset($_POST['gonder'])) {
+$dogrulama = "2030";
+
+    if($_POST['pin'] == $dogrulama) {
+        echo "Pin girişi doğru, yönlendiriliyorsunuz.";
+        //header("Location:panel.php"); yönlendirme için baştaki "//" işaretlerini kaldırıp sayfa adını yazabilirsin.
+    } else {
+        echo "Pin girişi başarısız.";
+    }
+
+}
+?
+    
+    
+</body>
+
+</html>

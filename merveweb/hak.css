@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#metin{
+    margin: 10px;
+}
+#hak{
+    color: black;
+}
+#seh{
+    color:black;
+}
+#miras{
+    color: black;
+}
+#ilgi{
+    color:black;
+}
+#iletisim{
+    color: black;
+}
+#iletisim:hover{
+      
+  background-color: brown;
+  color:black;
+}
+#hak:hover{
+  
+  background-color: brown;
+  color:black;
+}
+#seh:hover{
+      
+  background-color: brown;
+  color:black;
+
+}
+#miras:hover{
+      
+  background-color: brown;
+  color:black;
+}
+#ilgi:hover{
+      
+  background-color: brown;
+  color:black;
+}
+.container-fluid{
+    background-color:bisque;
+}
+#h4{
+    margin-top:50px;
+}
+#h41{
+    margin-left: 200px;
+    margin-bottom: 15px;
+    color: brown;
+}
+#img{
+    width: 600px;
+     height: 600px; 
+     margin: 30px;
+     border-radius: 15px;
+     border-color: brown;
+     border-style:inset;
+}
+#ad{
+    border-color:brown;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+#soyad{
+    border-color:brown;
+    border-radius: 5px;
+    margin-left:100px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+#ileti{
+    border-color: brown;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+#h42{
+    margin-left: 180px;
+    color: brown;
+    margin-top: 50px;
+
+}
+#h61{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+#h62{
+    margin-left: 180px;
+    margin-top: -50px;
+}
+#icon2{
+    margin-left: 300px;
+    margin-top: -28px;
+}
+#icon1{
+    color:black;
+    width: 100px;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: -30px;
+}
+#icon1:hover{
+    color: brown;
+}
+#icon2:hover{
+    color:brown;
+}
