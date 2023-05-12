@@ -11,26 +11,42 @@
 </head>
 
 <body>
+ <div class="container">
+   <div class="box form-box">
+     <header>Login</header>
+    <form action="">
+      <div class="field input">
+      <label for="username"> Username</label>
+      <input type="text" name="username" id="username" required>
+      </div>
+      <div class="field">
+        <input type="submit" name="submit">
+      </div>
+      <div class="links">
+      
+      </div>
 
 
-  <form method="POST" action="">
-    <input type="password" name="pin">
-    <input type="submit" name="gonder" value="Giriş">
-</form>
 
-<?php
-if(isset($_POST['gonder'])) {
-$dogrulama = "2030";
 
-    if($_POST['pin'] == $dogrulama) {
-        echo "Pin girişi doğru, yönlendiriliyorsunuz.";
-        //header("Location:panel.php"); yönlendirme için baştaki "//" işaretlerini kaldırıp sayfa adını yazabilirsin.
-    } else {
-        echo "Pin girişi başarısız.";
-    }
 
-}
-?
+    </form>
+
+
+
+
+
+
+   </div>
+
+
+
+
+
+
+ </div>
+
+
     
     
 </body>
