@@ -11,44 +11,70 @@
 </head>
 
 <body>
- <div class="container">
-   <div class="box form-box">
-     <header>Login</header>
-    <form action="">
-      <div class="field input">
-      <label for="username"> KULLANICI NUMARASI</label>
-      <input type="text" name="kullan" id="kullan" autocomplete="off"required>
-      </div>
-      <div class="field input">
-        <label for="username"> ŞİFRE</label>
-        <input type="password" name="password" id="password"  autocomplete="off"required>
-        </div>
-      <div class="field">
-        <input type="submit" name="submit">
-      </div>
-      <div class="links">
-      <a href="/merveweb/hak.html">SIGN IN</a>
-      </div>
+ 
 
-
-
-
-
-    </form>
-
-
-
-
-
-
-   </div>
-
-
-
-
-
-
- </div>
+  <form action="giris" name="girisFormu">
+    <label for="adi">E-posta</label>
+    <input type="text" name="eposta" />
+    <label for="sifre">Şifre</label>
+    <input type="password" name="sifre" />
+    <input type="submit" value="Giriş" />
+  </form>
+  <script>
+    "use strict";
+      var formGiris = document.forms["girisFormu"];  // form seçimi
+      var eposta = formGiris.eposta;   // eposta alanı seçimi
+      var sifre = formGiris["sifre"];  // sifre alanı seçimi
+    </script>
+    <script>
+      "use strict";
+        var formGiris = document.forms["girisFormu"];  // form seçimi
+        var eposta = formGiris["eposta"];  // eposta alanı seçimi
+      
+        alert(eposta.value);  // eposta alanı value özelliği
+      </script>
+      <script>
+        "use strict";
+          var formGiris = document.forms["girisFormu"];  // form seçimi
+          var eposta = formGiris.eposta;   // eposta alanı seçimi
+          var sifre = formGiris["sifre"];  // sifre alanı seçimi
+        
+          formGiris.onsubmit = function() {  // onsubmit olayı
+            alert(eposta.value); // eposta alanı value özelliği
+            alert(sifre.value);  // sifre alanı value özelliği
+        }
+        </script>
+        <script>
+          "use strict";
+            var formGiris = document.forms["girisFormu"];  // form seçimi
+            var eposta = formGiris.eposta;   // eposta alanı seçimi
+            var sifre = formGiris["sifre"];  // sifre alanı seçimi
+          
+            formGiris.onsubmit = function() {
+              if (eposta.value != "" && sifre.value != "") {
+                alert(eposta.value);  // eposta alanı value özelliği
+                alert(sifre.value);   // sifre alanı value özelliği
+              } else {
+                alert("Tüm alanları doldurun !");
+                return false;  // form gönderimini iptal et
+              }
+            }
+          </script>
+          <script>
+            "use strict";
+              var formGiris = document.forms["girisFormu"];  // form seçimi
+              var eposta = formGiris.eposta;   // eposta alanı seçimi
+              var sifre = formGiris["sifre"];  // sifre alanı seçimi
+            
+              formGiris.onsubmit = function() {
+                if (sifre.value.length > 6) {
+                  alert("Şifreniz : " + sifre.value);  // sifre alanı value özelliği
+                } else {
+                  alert("Şifre 6 karakterden az !");
+                  return false;  // form gönderimini iptal et
+                }
+              }
+            </script>
 
 
     

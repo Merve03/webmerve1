@@ -1,7 +1,7 @@
 <?php
     ob_start();
-    $user='b211210554@sakarya.edu.tr';
-    $pass='b211210554';
+    $user='b211210557@sakarya.edu.tr';
+    $pass='b211210557';
 
     if(isset($_POST['submit']))
     {
@@ -10,7 +10,7 @@
 
         if ($username==$user && $password==$pass)
         {
-            header('location:hak.html');
+            header('location:index.html');
             exit();
         }
         else 
