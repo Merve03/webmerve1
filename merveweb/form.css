@@ -1,0 +1,117 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    background-origin:border-box;
+    background-color: bisque;
+}
+#hak{
+    color: black;
+}
+#seh{
+    color:black;
+}
+#miras{
+    color: black;
+}
+#ilgi{
+    color:black;
+}
+#iletisim{
+    color: black;
+}
+#gül{
+    color:black
+}
+#gül:hover{
+    background-color: brown;
+    color:black;
+
+}
+#iletisim:hover{
+      
+  background-color: brown;
+  color:black;
+}
+#hak:hover{
+  
+  background-color: brown;
+  color:black;
+}
+#seh:hover{
+      
+  background-color: brown;
+  color:black;
+
+}
+#miras:hover{
+      
+  background-color: brown;
+  color:black;
+}
+#ilgi:hover{
+      
+  background-color: brown;
+  color:black;
+}
+
+#form{
+    position: absolute;
+    
+  margin-left:520px;
+margin-top: 10px;
+background-color: coral;
+border-radius: 5px;
+width: 450px;
+    height: 400px;
+
+
+}
+#form input{
+    border-radius: 5px;
+}
+#h4{
+    margin-left:580px;
+    margin-top:150px;
+}
+#btn{
+    margin-left:50px;
+    margin-top: 10px;
+}
+#isim{
+    position:absolute;
+    margin-left:120px;
+    margin-top: 30px;
+}
+#password{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+#tel{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 130px;
+}
+#üni{
+    position: absolute;
+    margin-left: 120px;
+    margin-top:180px;
+}
+#btn{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 280px;
+    width: 80px;
+
+}
+#temiz{
+    margin-left: 240px;
+    margin-top: 280px;
+}
+.container{
+    background-color: bisque;
+}
+.container-fluid{
+    background-color: bisque;
+}

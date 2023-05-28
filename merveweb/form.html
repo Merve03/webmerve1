@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>İLETİŞİM SAYFASI</title>
+</head>
+<body> 
+  <div class="container-fluid">
+    <div class="row">
+     <div class="col-12 " style="background-color: bisque;">
+       <h4 style="margin-left:650px">MERVE KARTAL</h4>
+     </div>
+    </div>
+</div>
+
+<div class="container-fluid" >
+<nav class="nav nav-pills nav-fill">
+   <a class="nav-item nav-link " id="hak"href="index.html" >HAKKIMDA</a>
+   <a class="nav-item nav-link" id="seh" href="seh.html" >ŞEHRİMİZ</a>
+   <a class="nav-item nav-link" id="miras" href="miras.html" >MİRASIMIZ</a>
+   <a class="nav-item nav-link " id="ilgi"href="ilgi.html" >İLGİ ALANLARIMIZ</a>
+   <a class="nav-item nav-link " id="gül" href="gül.html" >GÜLLERİMİZ</a>
+   <a class="nav-item nav-link " id="gül" href="film.html" id="film" >FİLM</a>
+   <a class="nav-item nav-link " href="form.html" id="iletisim">İLETİŞİM</a>
+   <a class="nav-item nav-link" href="http://localhost:3000/" id="iletisim2" style="color:black; text-decoration: none;">İLETİŞİM2 </a>
+ </nav>
+</div>
+
+
+
+   <div class="container">
+    <h1 id="h4">İLETİŞİM FORMU </h1>
+    <form method="POST" action="sonuc.php" id="form" name="girisFormu">
+       <div id="isim">
+        ADINIZ:<br>
+        <input type="text" name="isim" ><br>
+       </div>
+      <div id="password">
+         ŞİFRENİZ:<br>
+     <input type="password" name="sifre" ><br>
+      </div>
+    <div id="tel">
+        TELEFON NUMARANIZ:<br>
+        <input type="number" name="tel" ><br>
+    </div>
+      <div id="üni">
+        OKULUNUZ: <br>
+      SAKARYA ÜNİVERSİTESİ <input type="checkbox" name="diller[]" value=" SAKARYA ÜNİVERSİTESİ" id="saü"><br>
+      İSTANBUL ÜNİVERSİTESİ <input type="checkbox" name="diller[]" value="  İSTANBUL ÜNİVERSİTESİ" id="iü"><br>
+      </div>
+     <div id="btn">
+        <input type="submit" name="kayit" value="KAYDET" id="btni">
+     </div>
+     <div id="temiz">
+        <input type="reset" value="TEMİZLE" />
+     </div>
+     
+    </form>
+   </div>
+   
+   
+            <script>
+                "use strict";
+                  var formGiris = document.forms["girisFormu"];  // form seçimi
+                  var isim = formGiris.isim;   // eposta alanı seçimi
+                  var sifre = formGiris["sifre"];  // sifre alanı seçimi
+                
+                  formGiris.onsubmit = function() {
+                    if (isim.value != "" && sifre.value != "") {
+                      alert(isim.value);  // eposta alanı value özelliği
+                      alert(sifre.value);   // sifre alanı value özelliği
+                    } else {
+                      alert("Tüm alanları doldurun !");
+                      return false;  // form gönderimini iptal et
+                    }
+                  }
+                </script>
+
+
+
+
+</body>
+</html>

@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    
 }
 #metin{
     margin: 10px;
@@ -22,20 +23,6 @@ body{
 }
 #gül{
     color:black
-}
-#iletisim2{
-    color:black;
-}
-#film{
-    color: black;
-}
-#film:hover{
-    background-color: brown;
-    color:black;
-}
-#iletisim2:hover{
-    background-color: brown;
-    color:black;
 }
 #gül:hover{
     background-color: brown;
@@ -67,6 +54,13 @@ body{
       
   background-color: brown;
   color:black;
+}
+#film{
+    color: black;
+}
+#film:hover{
+    background-color: brown;
+    color:black;
 }
 .container-fluid{
     background-color:bisque;
@@ -170,4 +164,52 @@ body{
 }
 #btn:hover{
     background-color:darkred;
+}
+.api{
+    background-color: bisque;
+}
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result{
+    background-color: rgb(187, 147, 98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    height: 400px;
+    width: 300px;
+}
+.result img{
+    object-fit: cover;
+    height: 100%;
+    width:100%;
+}
+.buttons{
+    background-color: bisque;
+}
+
+.buttons button{
+    background-color: brown;
+    border:0;
+    border-radius: 4px;
+    color:black;
+}
+button:active{
+    transform: scale(0.98);
+}
+button:focus{
+    outline:none;
+}
+#cat_btn{
+    margin-left:650px;
+}
+#iletisim2{
+    color:black;
+}
+#iletiisim2:hover{
+    background-color: brown;
+    color:black;
 }

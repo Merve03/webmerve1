@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(158, 131, 74);
+}
+.main .form-box{
+    border-color: brown;
+    height: 400px;
+    width: 400px;
+}
