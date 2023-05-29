@@ -1,0 +1,37 @@
+#email{
+  border-radius: 5px;
+}
+#password{
+  border-radius: 5px;
+}
+#username{
+  border-radius: 5px;
+}
+#submit{
+  border-radius: 5px;
+}
+#temiz{
+  border-radius: 5px;
+}
+#form{
+  background-color: chocolate;
+  width: 200px;
+  height: 400px;
+  margin-left:43em;
+  border-radius: 5px;
+}
+body{
+  background-color: bisque;
+}
+#submit{
+  background-color: rgb(198, 168, 103);
+}
+#submit:hover{
+  background-color: chocolate;
+}
+#temiz{
+  background-color: rgb(198, 168, 103);
+}
+#temiz:hover{
+  background-color: chocolate;
+}
